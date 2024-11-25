@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="bg-dark text-light">
+    <header id="cabecalho" class="position-sticky top-0 text-light">
+        <div class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+            <div class="container">
+                <div class="d-flex flex-column">
+                    <h1>Érick Mello</h1>
+                    <h2 class="h2 fs-4">Desenvolvedor Front-End</h2>
+                </div>
+    
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <nav class="collapse navbar-collapse justify-content-end ms-auto" id="menu">
+
+                    <ul class="navbar-nav nav-pills">
+
+                        <li class="nav-item">
+                            <a href="#sobre" class="nav-link active text-light
+                            ">Sobre mim</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#projetos" class="nav-link active text-light
+                            ">Projetos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contato" class="nav-link active text-light
+                            ">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <section id="sobre">
+            <div class="container">
+                <h2>Sobre mim</h2>
+                <p>
+                    Olá! Sou Érick Mello Junior, estudante apaixonado por tecnologia e desenvolvimento web. Estou cursando Sistemas de Informação no IFBA e ampliando meus conhecimentos no curso de Engenheiro Front-End pela EBAC.
+
+                    Tenho grande interesse em explorar o universo digital, unindo criatividade e lógica para transformar ideias em soluções. Sempre busco aprender algo novo, me desafiando em projetos que refletem meu entusiasmo pela área e minha vontade de crescer profissionalmente.
+
+                    Este espaço é uma forma de compartilhar um pouco da minha trajetória e do que venho construindo. Seja bem-vindo(a)!
+                </p>
+
+                <h3 class="h3 fs-5">Tecnologias que estou estudando</h3>
+                <ul class="list-unstyled d-flex">
+                    <li>
+                        <img src="images/icons/bootstrap.png" alt="Bootstrap" class="img-fluid">
+                    </li>
+                    <li>
+                        <img src="images/icons/css-3.png" alt="CSS3" class="img-fluid">
+                    </li>
+                    <li>
+                        <img src="images/icons/html.png" alt="HTML5" class="img-fluid">
+                    </li>
+                    <li>
+                        <img src="images/icons/jquery.png" alt="jQuery" class="img-fluid">
+                    </li>
+                    <li>
+                        <img src="images/icons/js.png" alt="Javascript" class="img-fluid">
+                    </li>
+                </ul>
+
+                <ul class="list-unstyled d-flex flex-column gap-3">
+                    <li class="bg-secondary p-2 rounded">
+                        <h4 class="h4 fs-6 m-0 text-light">
+                            Cursando o 3° semestre do Bacharelado em Sistemas de Informação no IFBA - Previsão de formação: 07/2027
+                        </h4>
+                    </li>
+                    <li class="bg-secondary p-2 rounded">
+                        <h4 class="h4 fs-6 m-0 text-light">
+                            Realizando Curso livre de Engenheiro Front-End na EBAC (Escola Britânica de Artes Criativas e Tecnologia) - Previsão de término: 05/2025
+                        </h4>
+                    </li>
+                    <li class="bg-secondary p-2 rounded">
+                        <h4 class="h4 fs-6 m-0 text-light">
+                            Residente bolsista no programa "Residência em Software TIC 36" na trilha de Desenvolvimento Front-End - CEPEDI & Governo do Estado da Bahia - Duração: 06/2024 - 12/2024
+                        </h4>
+                    </li>
+                </ul>
+        </section>
+    
+
+
+    <!-- CARDS DOS PROJETOS -->
+    
+        <section id="projetos">
+            <div class="container">
+                <h2>Projetos</h2>
+                <p class="p fs-5">A seguir, alguns projetos que venho desenvolvendo ao longo da minha jornada!</p>
+
+                <div class="container">
+                    <div class="row g-3">
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <article class="card bg-dark text-light">
+                                <header class="card-header">
+                                    Landing Page - Centauro
+                                </header>
+
+                                <div class="carousel carousel-fade slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-bs-interval="2500">
+                                            <img src="images/cards/projeto-centauro.png" alt="Landing Page Centauro" class="d-block w-100 h-auto">
+                                        </div>
+                                        <div class="carousel-item active" data-bs-interval="2500">
+                                            <img src="images/cards/projeto-centauro2.png" alt="Landing Page Centauro" class="d-block w-100 h-auto">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card-body">
+                                    Projeto simula um site inspirado na loja Centauro, apresentando alguns produtos e suas informações. Utiliza <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong> e <strong>jQuery</strong> para melhorar a interatividade e a experiência do usuário.
+
+                                </div>
+
+                                <div class="card-footer">
+                                    <a class="btn btn-info" href="https://centauro-j-query.vercel.app/" target="_blank">Visualizar projeto</a>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <article class="card bg-dark text-light">
+                                <header class="card-header">
+                                    Landing Page - PortoBloom
+                                </header>
+                                <div class="carousel carousel-fade slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-bs-interval="2500">
+                                            <img src="images/cards/projeto-portobloom.png" alt="Landing Page PortoBloom" class="d-block w-100 h-auto">
+                                        </div>
+                                        <div class="carousel-item active" data-bs-interval="2500">
+                                            <img src="images/cards/projeto-portobloom2.png" alt="Landing Page Centauro" class="d-block w-100 h-auto">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    O site "PortoBloom" apresenta um catálogo de velas artesanais, destacando o design sofisticado. Desenvolvido com <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong> e <strong>jQuery</strong> para uma experiência interativa e fluida.
+
+                                </div>
+                                <div class="card-footer">
+                                    <a class="btn btn-info" href="https://porto-bloom.vercel.app/" target="_blank">Visualizar projeto</a>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <article class="card bg-dark text-light">
+                                <header class="card-header">
+                                    Landing Page - Restaurante
+                                </header>
+                                <div class="carousel carousel-fade slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-bs-interval="2500">
+                                            <img src="images/cards/projeto-restaurante.png" alt="Landing Page Restaurante" class="d-block w-100 h-auto">
+                                        </div>
+                                        <div class="carousel-item active" data-bs-interval="2500">
+                                            <img src="images/cards/projeto-restaurante2.png" alt="Landing Page Centauro" class="d-block w-100 h-auto">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    Landing page para um restaurante, apresentando serviços, pratos e localização de forma atrativa. Desenvolvido com <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong> e <strong>jQuery</strong> para uma experiência dinâmica e responsiva.
+                                </div>
+                                <div class="card-footer">
+                                    <a class="btn btn-info" href="https://landing-page-restaurante-sand.vercel.app/" target="_blank">Visualizar projeto</a>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <article class="card bg-dark text-light">
+                                <header class="card-header">
+                                    Em breve...
+                                </header>
+                                <img src="images/cards/coming-soon.jpg" alt="Em breve...">
+                                <div class="card-body">
+                                    Nada aqui, por enquanto...
+                                </div>
+                            </article>
+                        </div>
+
+                        
+
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <article class="card bg-dark text-light">
+                                <header class="card-header">
+                                    Em breve...
+                                </header>
+                                <img src="images/cards/coming-soon.jpg" alt="Em breve...">
+                                <div class="card-body">
+                                    Nada aqui, por enquanto...
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <article class="card bg-dark text-light">
+                                <header class="card-header">
+                                    Em breve...
+                                </header>
+                                <img src="images/cards/coming-soon.jpg" alt="Em breve...">
+                                <div class="card-body">
+                                    Nada aqui, por enquanto...
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <div class="container">
+            <section id="contato">
+                <h2>Contato</h2>
+                <div class="container ">
+                    
+                    <ul class="list-unstyled">
+                        <li class="d-flex align-items-center">
+                            <h3>Github</h3>
+                            <img src="images/icons/github.png" alt="github">
+                        </li>
+                    </ul>
+                    
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="lib/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

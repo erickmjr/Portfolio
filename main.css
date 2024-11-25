@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+.navbar, header, #menu{
+    z-index: 9999;
+}
+
+.nav-item {
+    margin-bottom: 0.25%;
+    text-align: center;
+}
+
+.nav-item .nav-link.active{
+    color: white;
+}
+
+.list-unstyled.d-flex img{
+    max-width: 15vw;
+}
+
+
+.card-header{
+    z-index: 0;
+}
+
+#contato .container img{
+    max-width: 10vw;
+}
+
+
+@media screen and (min-width: 1366px) {
+    .list-unstyled.d-flex img{
+        max-width: 5vw;
+    }
+
+}
