@@ -23,7 +23,7 @@
 }
 
 #contato .container img{
-    max-width: 10vw;
+    max-width: 5vw;
 }
 
 
@@ -32,4 +32,17 @@
         max-width: 5vw;
     }
 
+}
+
+@media screen and (max-width: 1024px) {
+    #contato .container img{
+        max-width: 8vw;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    #contato .container img{
+        max-width: 12vw;
+    }
 }
